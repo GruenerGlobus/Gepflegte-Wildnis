@@ -1,0 +1,445 @@
+@charset "UTF-8";
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Kopf*/
+header {
+	background-color: rgb(148, 189, 0);
+	margin: 0px;
+	padding-bottom: 0px;
+	padding-top: 15px;
+	padding-left: 5px;
+	height: auto;
+	border: none;
+}
+
+.titel {
+	padding: 5px;
+	border: none;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: calc(100% - 420px);
+	background-color: green;
+	color: rgb(245, 255, 240);
+	font-size: 40px;
+	text-decoration-line: none;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	align-items: center;
+}
+
+.titel img {
+	height: 60px;
+	width: auto;
+	margin-right: 10px;
+}
+
+/*Menü*/
+#menu {
+	font-size: 20px;
+	height: 59px;
+}
+
+#menu ul {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li.topmenu {
+	float: left;
+	background-color: rgb(148, 189, 0);
+}
+
+.topmenu a {
+	float: left;
+	width: auto;
+	text-align: center;
+	padding: 1px 5px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 10px;
+	background-color: rgb(148, 189, 0);
+}
+
+.topmenu ul {
+	display: flex;
+}
+
+#menu a:hover {
+	color: #ffffff;
+	background-color: green;
+	cursor: pointer;
+}
+
+/*Artikel*/
+a:active {
+	text-shadow: 0px 0px 4px black;
+	box-shadow: 0px 0px 2px black;
+}
+
+.marker,
+body {
+	background-color: green;
+}
+
+article {
+	position: relative;
+	background-color: rgb(245, 245, 245);
+	margin-right: 4vw;
+	margin-left: 4vw;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	vertical-align: top;
+}
+
+.Tjust p,
+.TblTH p,
+.ueberblick li {
+	text-align: justify;
+}
+
+p a {
+	text-decoration-line: none;
+	color: green;
+	font-weight: bold;
+	font-size: larger;
+}
+
+h3 a {
+	text-decoration-line: none;
+	color: black;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h1::before {
+	content: "+";
+	color: green;
+	background-color: green;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+.kleiner {
+	font-size: smaller;
+}
+
+.kartegr {
+	scale: 1;
+}
+
+.kartegrub {
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 0;
+}
+
+.kartekl {
+	scale: 3.1;
+	position: absolute;
+	left: 780px;
+	bottom: 200px;
+	float: left;
+}
+
+.ueberblick {
+	position: relative;
+}
+
+.ueberblick ol {
+	position: absolute;
+	left: 300px;
+	top: 0px;
+	width: 380px;
+	list-style: none;
+	padding: 0;
+}
+
+.ueberblick li {
+	margin-bottom: 10px;
+}
+
+.diagramm {
+	max-width: 800px;
+	margin-left: 0;
+}
+
+.stayTop {
+	position: sticky;
+	top: 0px;
+	background-color: rgb(245, 245, 245);
+}
+
+.hiliFBs,
+.hiliFB {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	max-width: 1600px;
+}
+
+.grdcol,
+.grdrow {
+	display: flex;
+}
+
+.grdcol {
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.grdrow {
+	flex-direction: row;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.hiliFB img {
+	height: 400px;
+	width: auto;
+	margin-right: 0;
+}
+
+.bildNormal img {
+	height: 400px;
+	width: auto;
+}
+
+.MRg,
+.MRg img {
+	margin-right: 4px;
+}
+
+.MRu img,
+.hiliFB div,
+.hiliFB img,
+.MRu,
+.MRu p {
+	margin-right: 15px;
+}
+
+.WIp {
+	width: 11px;
+}
+
+.FKK img {
+	height: 150px;
+	width: auto;
+}
+
+.FMK img {
+	height: 198px;
+	width: auto;
+}
+
+.FMG img,
+.FMG video {
+	height: 247px;
+	width: auto;
+}
+
+.hiliFB p,
+.hiliFBs p {
+	max-width: max(630px,35vw);
+}
+
+.hiliFBs img,
+.hiliFBs p,
+.hiliFB img,
+.hiliFB p {
+	margin-top: 0;
+}
+
+.fakeBild {
+	width: 50vw;
+}
+
+/*Tabellen*/
+thead {
+	font-weight: bold;
+}
+
+.TblMP {
+	border: 1px solid rgb(245, 245, 245);
+	border-bottom-color: black;
+}
+
+.TblMP td {
+	padding-right: 20px;
+}
+
+.TblTH {
+	vertical-align: top;
+}
+
+.TblALS td {
+	min-width: 350px;
+	max-width: 600px;
+	padding: 0;
+}
+
+.TblL tr:nth-child(even) {
+	background-color: rgb(225, 225, 225);
+}
+
+.TblLV td:nth-child(1) {
+	font-style: italic;
+}
+
+.TblLP td:nth-child(2) {
+	font-style: italic;
+}
+
+.TblLI td:nth-child(3) {
+	font-style: italic;
+}
+
+/*S F R N einheitlich*/
+.TblALnV th:nth-child(4),
+.TblALnV td:nth-child(6),
+.TblALnV td:nth-child(4),
+.TblALnV th:nth-child(6),
+.TblALnI th:nth-child(6),
+.TblALnI td:nth-child(8),
+.TblALnI td:nth-child(6),
+.TblALnI th:nth-child(8),
+.TblALn th:nth-child(4),
+.TblALn th:nth-child(9),
+.TblALn th:nth-child(10),
+.TblALn th:nth-child(11),
+.TblALn td:nth-child(4),
+.TblALn td:nth-child(11),
+.TblALn td:nth-child(12),
+.TblALn td:nth-child(13) {
+	width: 25px;
+	text-align: center;
+}
+
+.TblALn th:nth-child(6),
+.TblALn th:nth-child(7),
+.TblALn td:nth-child(6),
+.TblALn td:nth-child(7),
+.TblALn td:nth-child(8),
+.TblALn td:nth-child(9) {
+	width: 30px;
+	text-align: center;
+}
+
+.TblLPMonate td:nth-child(4),
+.TblLPMonate td:nth-child(5),
+.TblLPMonate td:nth-child(6),
+.TblLPMonate td:nth-child(7),
+.TblLPMonate td:nth-child(8),
+.TblLPMonate td:nth-child(9),
+.TblLPMonate td:nth-child(10),
+.TblLPMonate td:nth-child(11),
+.TblLPMonate td:nth-child(12),
+.TblLPMonate td:nth-child(13) {
+	width: 30px;
+	text-align: center;
+}
+
+/*TabellenLücken*/
+.TblALnV th:nth-child(3),
+.TblALnV th:nth-child(5),
+.TblALnI th:nth-child(5),
+.TblALnI th:nth-child(7),
+.TblALn td:nth-child(5),
+.TblALn td:nth-child(10) {
+	width: 25px;
+}
+
+.TblALnEZW td,
+.TblALnEZW th{
+	width: 40px;
+	text-align: center;
+}
+
+.nope {
+	font-style: normal;
+}
+
+.padTop {
+	padding-top: 12px;
+}
+
+.padRig {
+	padding-right: 30px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.TblLink a {
+	width: auto;
+	text-align: center;
+	padding: 1px 5px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	margin: 10px;
+	background-color: rgb(148, 189, 0);
+}
+
+.TblLink a:hover {
+	color: #ffffff;
+	background-color: green;
+	cursor: pointer;
+}
+
+.TblL th,
+.thead th,
+.stayTop th,
+.headfoot td {
+	border-bottom: 1px solid black;
+}
+
+.mittig {
+	text-align: center;
+}
+
+/*Unten*/
+footer {
+	position: relative;
+	bottom: 0;
+	color: green;
+	font-size: 20px;
+	position: static;
+	background-color: rgb(148, 189, 0);
+	margin: none;
+	padding-right: 10px;
+	padding-top: 0;
+	height: 51px;
+}
+
+.footermenu {
+	float: right;
+}
