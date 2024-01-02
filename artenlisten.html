@@ -26,7 +26,7 @@
                     <a href="plaene.html">Pläne</a>
                 </li>
                 <li class="topmenu">
-                    <a href="artenlisten.html">Artenlisten &amp; Statistik</a>
+                    <a href="artenlisten.html" id="MenGew">Artenlisten &amp; Statistik</a>
                 </li>
                 <li class="topmenu">
                     <a href="hintergruende.html">Inhaltliche Hintergründe</a>
@@ -36,29 +36,39 @@
     </header>
     <article>
         <i>Mit Klick auf das jeweilige grüne Feld gelangt man zu der jeweiligen Artenliste bzw. weiterer Tabelle.</i>
-        <div class="grdrow TblLink">
-            <div class="grdcol TblLinkMRrb">
-                <h1>&nbsp;Artenlisten</h1>
-                <div class="grdrow">
-                    <div>Flora:</div>
-                    <div><a href="gal_pfl7.html">Fläche 7</a></div>
-                    <div><a href="gal_pflges.html">Gesamtfläche</a></div>
-                </div>
-                <div class="grdrow">
-                    <div>Fauna:</div>
-                    <div><a href="gal_tieges.html">Gesamtfläche &amp; Umgebung</a></div>
-                </div>
-            </div>
-            <div class="grdcol TblLinkMRrb">
-                <h1>&nbsp;Sonstiges</h1>
-                <div class="grdrow">
-                    <div><a href="son_ezw.html">Ellenberg-Zeigerwert-Mittelwerte &amp; Diversitätsindizes</a></div>
-                </div>
-                <div class="grdrow">
-                    <div><a href="son_phaen.html">Was blühte in welchem Monat?</a></div>
-                </div>
-            </div>
-        </div>
+        <table class="TblLink">
+            <tr class="TblALS">
+                <td colspan="4">
+                    <h1>&nbsp;Artenlisten</h1>
+                </td>
+                <td>
+                    <h1>&nbsp;Sonstiges</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Flora:</td>
+                <td>
+                    <a href="gal_pfl7.html">Fläche 7</a>
+                </td>
+                <td>
+                    <a href="gal_pflges.html">Gesamtfläche</a>
+                </td>
+                <td class="padRig"></td>
+                <td><a href="son_ezw.html">Ellenberg-Zeigerwert-Mittelwerte &amp; Diversitätsindizes</a></td>
+            </tr>
+            <tr>
+                <td class="padTop"></td>
+            </tr>
+            <tr>
+                <td>Fauna:</td>
+                <td colspan="2">
+                    <a href="gal_tieges.html">Gesamtfläche &amp; Umgebung</a>
+                </td>
+                <td></td>
+                <td><a href="son_phaen.html">Was blühte in welchem Monat?</a></td>
+                <td></td>
+            </tr>
+        </table>
         <br>
     </article>
     <footer>
