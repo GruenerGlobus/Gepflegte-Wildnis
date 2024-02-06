@@ -340,6 +340,12 @@ thead {
 .TblALnI td:nth-child(8),
 .TblALnI td:nth-child(6),
 .TblALnI th:nth-child(8),
+.TblALnG th:nth-child(4),
+.TblALnG th:nth-child(5),
+.TblALnG th:nth-child(6),
+.TblALnG td:nth-child(4),
+.TblALnG td:nth-child(5),
+.TblALnG td:nth-child(6),
 .TblALn th:nth-child(4),
 .TblALn th:nth-child(9),
 .TblALn th:nth-child(10),
@@ -357,11 +363,8 @@ thead {
 .TblALn td:nth-child(6),
 .TblALn td:nth-child(7),
 .TblALn td:nth-child(8),
-.TblALn td:nth-child(9) {
-	width: 30px;
-	text-align: center;
-}
-
+.TblALnG td:nth-child(7),
+.TblALn td:nth-child(9),
 .TblLPMonate td:nth-child(4),
 .TblLPMonate td:nth-child(5),
 .TblLPMonate td:nth-child(6),
@@ -374,6 +377,10 @@ thead {
 .TblLPMonate td:nth-child(13) {
 	width: 30px;
 	text-align: center;
+}
+
+.TblALnG td:nth-child(8){
+	width: 80px;
 }
 
 /*TabellenLücken*/
