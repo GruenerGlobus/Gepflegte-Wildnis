@@ -373,7 +373,11 @@ thead {
 .TblALn th:nth-child(10),
 .TblALn th:nth-child(11),
 .TblALn td:nth-child(10),
-.TblALn td:nth-child(11),
+.TblALn td:nth-child(11) {
+	width: 30px;
+	text-align: center;
+}
+
 .TblLPMonate td:nth-child(4),
 .TblLPMonate td:nth-child(5),
 .TblLPMonate td:nth-child(6),
@@ -383,10 +387,38 @@ thead {
 .TblLPMonate td:nth-child(10),
 .TblLPMonate td:nth-child(11),
 .TblLPMonate td:nth-child(12),
-.TblLPMonate td:nth-child(13) {
-	width: 30px;
+.TblLPMonate td:nth-child(13),
+.TblLPMonate td:nth-child(14),
+.TblLPMonate td:nth-child(15),
+.TblLPMonate td:nth-child(16),
+.TblLPMonate td:nth-child(17),
+.TblLPMonate td:nth-child(18),
+.TblLPMonate td:nth-child(20),
+.TblLPMonate td:nth-child(21),
+.TblLPMonate td:nth-child(22),
+.TblLPMonate td:nth-child(23),
+.TblLPMonate td:nth-child(24),
+.TblLPMonate td:nth-child(25),
+.TblLPMonate td:nth-child(26),
+.TblLPMonate td:nth-child(27),
+.TblLPMonate td:nth-child(19){
+	width: 12px;
 	text-align: center;
 }
+
+.TblLPMonate td:nth-child(5),
+.TblLPMonate td:nth-child(7),
+.TblLPMonate td:nth-child(9),
+.TblLPMonate td:nth-child(11),
+.TblLPMonate td:nth-child(13),
+.TblLPMonate td:nth-child(15),
+.TblLPMonate td:nth-child(17),
+.TblLPMonate td:nth-child(21),
+.TblLPMonate td:nth-child(23),
+.TblLPMonate td:nth-child(25),
+.TblLPMonate td:nth-child(19){
+	border-right: 1px solid black;
+}	
 
 .TblALnG td:nth-child(8) {
 	width: 80px;
