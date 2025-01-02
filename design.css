@@ -333,9 +333,11 @@ thead {
 
 /*S F R N einheitlich*/
 .TblALnV th:nth-child(4),
-.TblALnV td:nth-child(6),
+.TblALnV td:nth-child(7),
+.TblALnV th:nth-child(5),
+.TblALnV td:nth-child(5),
 .TblALnV td:nth-child(4),
-.TblALnV th:nth-child(6),
+.TblALnV th:nth-child(7),
 .TblALnI th:nth-child(6),
 .TblALnI td:nth-child(8),
 .TblALnI td:nth-child(6),
@@ -426,7 +428,7 @@ thead {
 
 /*TabellenLücken*/
 .TblALnV th:nth-child(3),
-.TblALnV th:nth-child(5),
+.TblALnV th:nth-child(6),
 .TblALnI th:nth-child(5),
 .TblALnI th:nth-child(7),
 .TblALn td:nth-child(5),
