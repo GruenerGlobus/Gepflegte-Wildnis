@@ -100,13 +100,17 @@ body {
 article {
 	position: relative;
 	background-color: rgb(245, 245, 245);
-	margin-right: 4vw;
-	margin-left: 4vw;
+	margin-right: 3.5vw;
+	margin-left: 3.5vw;
 	padding-bottom: 20px;
 	padding-top: 15px;
-	padding-left: 4vw;
-	padding-right: 4vw;
+	padding-left: 3vw;
+	padding-right: 2vw;
 	vertical-align: top;
+}
+
+.begrenzt {
+	max-width: 1100px;
 }
 
 .Tjust p,
@@ -275,6 +279,11 @@ mark {
 	width: auto;
 }
 
+.FGG img {
+	height: 600px;
+	width: auto;
+}
+
 .hiliFB p,
 .hiliFBs p {
 	max-width: max(630px, 35vw);
@@ -405,7 +414,7 @@ thead {
 .TblLPMonate td:nth-child(25),
 .TblLPMonate td:nth-child(26),
 .TblLPMonate td:nth-child(27),
-.TblLPMonate td:nth-child(19){
+.TblLPMonate td:nth-child(19) {
 	width: 12px;
 	text-align: center;
 }
@@ -420,9 +429,9 @@ thead {
 .TblLPMonate td:nth-child(21),
 .TblLPMonate td:nth-child(23),
 .TblLPMonate td:nth-child(25),
-.TblLPMonate td:nth-child(19){
+.TblLPMonate td:nth-child(19) {
 	border-right: 1px solid black;
-}	
+}
 
 .TblALnG td:nth-child(8) {
 	width: 80px;
