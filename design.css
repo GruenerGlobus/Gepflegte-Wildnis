@@ -284,6 +284,11 @@ mark {
 	width: auto;
 }
 
+.FXL img {
+	height: auto;
+	width: 800px;
+}
+
 .hiliFB p,
 .hiliFBs p {
 	max-width: max(630px, 35vw);
