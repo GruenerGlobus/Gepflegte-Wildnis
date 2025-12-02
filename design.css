@@ -119,6 +119,7 @@ article {
 	text-align: justify;
 }
 
+.TblLI a,
 p a {
 	text-decoration-line: none;
 	color: green;
