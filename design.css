@@ -297,6 +297,10 @@ mark {
 	max-width: max(630px, 35vw);
 }
 
+.TeB p{
+	max-width: max(950px, 40vw);
+}
+
 .hiliFBs img,
 .hiliFBs p,
 .hiliFB img,
