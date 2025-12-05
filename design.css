@@ -245,7 +245,8 @@ mark {
 	margin-right: 0;
 }
 
-.bildNormal img {
+.bildNormal img,
+.bildNormal video {
 	height: 400px;
 	width: auto;
 }
