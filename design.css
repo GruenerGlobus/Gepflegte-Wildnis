@@ -301,6 +301,10 @@ mark {
 	max-width: max(950px, 40vw);
 }
 
+.Tjust p{
+	line-height: 135%;
+}
+
 .hiliFBs img,
 .hiliFBs p,
 .hiliFB img,
