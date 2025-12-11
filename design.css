@@ -262,6 +262,13 @@ mark {
 	margin-right: 25px;
 }
 
+.MRv,
+.MRv img,
+.MRv video,
+.MRv p {
+	margin-right: 17px;
+}
+
 .WIp {
 	width: 11px;
 }
