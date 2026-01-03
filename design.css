@@ -382,6 +382,10 @@ thead {
 .TblALnG td:nth-child(4),
 .TblALnG td:nth-child(5),
 .TblALnG td:nth-child(6),
+.TblALnG th:nth-child(7),
+.TblALnG th:nth-child(8),
+.TblALnG td:nth-child(7),
+.TblALnG td:nth-child(8),
 .TblALn th:nth-child(4),
 .TblALn th:nth-child(11),
 .TblALn th:nth-child(12),
@@ -400,7 +404,7 @@ thead {
 .TblALn td:nth-child(6),
 .TblALn td:nth-child(7),
 .TblALn td:nth-child(8),
-.TblALnG td:nth-child(7),
+.TblALnG td:nth-child(9),
 .TblALn td:nth-child(9),
 .TblALn th:nth-child(9),
 .TblALn th:nth-child(8),
@@ -456,7 +460,7 @@ thead {
 	border-right: 1px solid black;
 }
 
-.TblALnG td:nth-child(8) {
+.TblALnG td:nth-child(10) {
 	width: 80px;
 }
 
