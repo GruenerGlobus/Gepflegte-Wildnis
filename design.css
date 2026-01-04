@@ -391,10 +391,10 @@ thead {
 .TblALn th:nth-child(12),
 .TblALn th:nth-child(13),
 .TblALn td:nth-child(4),
-.TblALn td:nth-child(12),
-.TblALn td:nth-child(13),
 .TblALn td:nth-child(14),
-.TblALn td:nth-child(15) {
+.TblALn td:nth-child(15),
+.TblALn td:nth-child(16),
+.TblALn td:nth-child(17) {
 	width: 25px;
 	text-align: center;
 }
@@ -403,17 +403,19 @@ thead {
 .TblALn th:nth-child(7),
 .TblALn td:nth-child(6),
 .TblALn td:nth-child(7),
+.TblALn th:nth-child(8),
 .TblALn td:nth-child(8),
 .TblALnG td:nth-child(9),
 .TblALn td:nth-child(9),
 .TblALn th:nth-child(9),
-.TblALn th:nth-child(8),
-.TblALn td:nth-child(6),
-.TblALn td:nth-child(7),
 .TblALn th:nth-child(10),
 .TblALn th:nth-child(11),
 .TblALn td:nth-child(10),
-.TblALn td:nth-child(11) {
+.TblALn td:nth-child(11),
+.TblALn th:nth-child(12),
+.TblALn th:nth-child(13),
+.TblALn td:nth-child(12),
+.TblALn td:nth-child(13) {
 	width: 30px;
 	text-align: center;
 }
