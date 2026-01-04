@@ -435,6 +435,7 @@ thead {
 .TblLPMonate td:nth-child(16),
 .TblLPMonate td:nth-child(17),
 .TblLPMonate td:nth-child(18),
+.TblLPMonate td:nth-child(19),
 .TblLPMonate td:nth-child(20),
 .TblLPMonate td:nth-child(21),
 .TblLPMonate td:nth-child(22),
@@ -443,22 +444,34 @@ thead {
 .TblLPMonate td:nth-child(25),
 .TblLPMonate td:nth-child(26),
 .TblLPMonate td:nth-child(27),
-.TblLPMonate td:nth-child(19) {
+.TblLPMonate td:nth-child(28),
+.TblLPMonate td:nth-child(29),
+.TblLPMonate td:nth-child(30),
+.TblLPMonate td:nth-child(31),
+.TblLPMonate td:nth-child(32),
+.TblLPMonate td:nth-child(33),
+.TblLPMonate td:nth-child(33),
+.TblLPMonate td:nth-child(34),
+.TblLPMonate td:nth-child(35),
+.TblLPMonate td:nth-child(36),
+.TblLPMonate td:nth-child(37),
+.TblLPMonate td:nth-child(38),
+.TblLPMonate td:nth-child(39) {
 	width: 12px;
 	text-align: center;
 }
 
-.TblLPMonate td:nth-child(5),
-.TblLPMonate td:nth-child(7),
+.TblLPMonate td:nth-child(6),
 .TblLPMonate td:nth-child(9),
-.TblLPMonate td:nth-child(11),
-.TblLPMonate td:nth-child(13),
+.TblLPMonate td:nth-child(12),
 .TblLPMonate td:nth-child(15),
-.TblLPMonate td:nth-child(17),
+.TblLPMonate td:nth-child(18),
 .TblLPMonate td:nth-child(21),
-.TblLPMonate td:nth-child(23),
-.TblLPMonate td:nth-child(25),
-.TblLPMonate td:nth-child(19) {
+.TblLPMonate td:nth-child(24),
+.TblLPMonate td:nth-child(27),
+.TblLPMonate td:nth-child(30),
+.TblLPMonate td:nth-child(33),
+.TblLPMonate td:nth-child(36) {
 	border-right: 1px solid black;
 }
 
