@@ -365,17 +365,21 @@ thead {
 
 /*S F R N einheitlich*/
 .TblALnV th:nth-child(4),
-.TblALnV td:nth-child(7),
+.TblALnV td:nth-child(4),
 .TblALnV th:nth-child(5),
 .TblALnV td:nth-child(5),
-.TblALnV td:nth-child(4),
-.TblALnV th:nth-child(7),
+.TblALnV td:nth-child(6),
+.TblALnV th:nth-child(6),
+.TblALnV td:nth-child(8),
+.TblALnV th:nth-child(8),
 .TblALnI th:nth-child(6),
 .TblALnI th:nth-child(7),
-.TblALnI td:nth-child(9),
+.TblALnI th:nth-child(8),
+.TblALnI th:nth-child(10),
 .TblALnI td:nth-child(6),
 .TblALnI td:nth-child(7),
-.TblALnI th:nth-child(9),
+.TblALnI td:nth-child(8),
+.TblALnI td:nth-child(10),
 .TblALnG th:nth-child(4),
 .TblALnG th:nth-child(5),
 .TblALnG th:nth-child(6),
@@ -481,9 +485,9 @@ thead {
 
 /*TabellenLücken*/
 .TblALnV th:nth-child(3),
-.TblALnV th:nth-child(6),
+.TblALnV th:nth-child(7),
 .TblALnI th:nth-child(5),
-.TblALnI th:nth-child(8),
+.TblALnI th:nth-child(9),
 .TblALn td:nth-child(5),
 .TblALn td:nth-child(10) {
 	width: 25px;
