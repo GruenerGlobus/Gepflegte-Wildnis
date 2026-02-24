@@ -289,6 +289,11 @@ mark {
 	width: auto;
 }
 
+.FXM img {
+	height: 480px;
+	width: auto;
+}
+
 .FGG img {
 	height: 600px;
 	width: auto;
@@ -306,6 +311,10 @@ mark {
 
 .TeB p{
 	max-width: max(950px, 40vw);
+}
+
+.TeM p{
+	max-width: max(550px, 32vw);
 }
 
 .Tjust p{
