@@ -289,6 +289,12 @@ mark {
 	width: auto;
 }
 
+.FXMG img,
+.FXMG video {
+	height: 340px;
+	width: auto;
+}
+
 .FXM img {
 	height: 480px;
 	width: auto;
